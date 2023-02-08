@@ -1,0 +1,11 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', {value: true});
+const express_1 = require('express');
+const db_1 = require('../db');
+const router = (0, express_1.Router)();
+router.post('/balance', db_1.myBalance);
+router.post('/transactions', db_1.seeTransactions);
+router.post('/register', db_1.createUser);
+router.post('/login', db_1.loginUser);
+router.post('/transfer', db_1.cashInOut);
+exports.default = router;
