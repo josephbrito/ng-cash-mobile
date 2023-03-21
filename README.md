@@ -11,6 +11,8 @@
 - Node JS
 - Typescript
 - Express
+- Postgresql
+- Sequelize
 - Docker
 - Axios
 
